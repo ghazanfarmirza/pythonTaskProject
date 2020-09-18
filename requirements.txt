@@ -1,0 +1,16 @@
+Git clone the project 
+After that, create the python virtual environment 
+
+pip install virtualenv 
+
+virtualenv venv
+
+source venv/bin/activate
+
+pip install pandas
+
+pip install google-api-python-client oauth2client
+
+run the program by: 
+
+python main.py --spreadsheet-name "Python script" --sheet-name Sheet1
